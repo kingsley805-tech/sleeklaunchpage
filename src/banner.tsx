@@ -92,18 +92,21 @@ export default function Home() {
           <div>
             {/* Countdown */}
             <div className="mb-8">
-              <div className="flex gap-4">
-                {Object.entries(timeLeft).map(([unit, value]) => (
-                  <div key={unit} className="text-center">
-                    <div className="text-3xl font-bold text-violet-600">
-                      {value.toString().padStart(2, '0')}
-                    </div>
-                    <div className="text-xs text-gray-500 uppercase tracking-wider">
-                      {unit}
-                    </div>
-                  </div>
-                ))}
-              </div>
+             <div className="w-full flex justify-center">
+  <div className="flex gap-4">
+    {Object.entries(timeLeft).map(([unit, value]) => (
+      <div key={unit} className="text-center">
+        <div className="text-3xl font-bold text-violet-600">
+          {value.toString().padStart(2, '0')}
+        </div>
+        <div className="text-xs text-gray-500 uppercase tracking-wider">
+          {unit}
+        </div>
+      </div>
+    ))}
+  </div>
+</div>
+
               <p className="font-semibold text-violet-600 mt-2">Launching on August 9th, 2025</p>
             </div>
             

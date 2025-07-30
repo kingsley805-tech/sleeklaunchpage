@@ -147,7 +147,7 @@ export default function Home() {
         <div className="w-full md:w-1/2 relative min-h-[400px] md:min-h-0">
           <div className="absolute inset-0 bg-gradient-to-br from-violet-400/10 to-indigo-500">
             <img 
-              src="https://media.istockphoto.com/id/2157922985/vector/smartphone-map-app-with-gps-navigation-and-red-marker-pin-point-on-screen-vector.jpg?s=612x612&w=0&k=20&c=8ugY39K1ubj9WO4uZVPyREhD_5jJWHqaL0ZiLY3bfVo="
+              src="https://media.istockphoto.com/id/1603361100/photo/portrait-of-black-woman-in-pharmacy-with-tablet-smile-and-online-inventory-list-for-medicine.jpg?s=612x612&w=0&k=20&c=XmWkRM4DHvtVUPNG_7uzaKFhWumBN2egZMgAK7ENomk="
               alt="Map with pharmacy locations"
               className="w-full h-full object-cover opacity-20"
             />

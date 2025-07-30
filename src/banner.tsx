@@ -79,24 +79,24 @@ export default function Home() {
               <Logo />
             </div>
             
-            <h1 className="text-4xl lg:text-5xl font-bold mb-4 leading-tight">
+            <h1 className="text-4xl lg:text-5xl font-bold mb-4 text-start leading-tight">
               Find Your Pharmacy,
               <span className="text-violet-600 block">Instantly.</span>
             </h1>
             
-            <p className="text-lg text-gray-600 mb-8">
+            <p className="text-lg text-gray-600 text-start mb-8">
               The revolutionary way for patients to locate nearby pharmacies and medications for their prescribed med... Launching soon.
             </p>
           </div>
           
           <div>
             {/* Countdown */}
-            <div className="mb-8">
-             <div className="w-full flex justify-center">
-  <div className="flex gap-4">
+            <div className="mb-8 text-start w-fu">
+             <div className="w-full flex  text-start">
+  <div className="flex gap-4 text-start">
     {Object.entries(timeLeft).map(([unit, value]) => (
-      <div key={unit} className="text-center">
-        <div className="text-3xl font-bold text-violet-600">
+      <div key={unit} className="text-start">
+        <div className="text-3xl text-start font-bold text-violet-600">
           {value.toString().padStart(2, '0')}
         </div>
         <div className="text-xs text-gray-500 uppercase tracking-wider">
@@ -113,7 +113,7 @@ export default function Home() {
             {/* Subscription Form */}
             {!subscribed ? (
               <form onSubmit={handleSubscribe}>
-                <label className="text-sm font-semibold mb-2 block">Be the first to know</label>
+                <label className="text-sm font-semibold text-start mb-2 block">Be the first to know</label>
                 <div className="flex flex-col sm:flex-row gap-3">
                   <Input
                     type="email"
